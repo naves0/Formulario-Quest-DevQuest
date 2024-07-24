@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML, CSS, JS - Curso DevQuest</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <div class="informacoes">
+            <h2>Ficou com dúvida? Nos mande uma mensagem!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+        <form class="formulario">
+            <div class="controle-formulario">
+                <input class="dados-usuario" type="text" id="nome" placeholder="Nome completo *">
+                <p class="msg-campo-obrigatorio">campo obrigatório</p>
+            </div>
+            <div class="controle-formulario">
+                <input class="dados-usuario" type="email" id="email" placeholder="Email *">
+                <p class="msg-campo-obrigatorio">campo obrigatório</p>
+            </div>
+            <div class="controle-formulario">
+                <input class="dados-usuario" type="tel" id="telefone" placeholder="Telefone *">
+                <p class="msg-campo-obrigatorio">campo obrigatório</p>
+            </div>
+            <div class="controle-formulario">
+                <textarea class="dados-usuario" id="msg-duvida" name="campo-mensagem" id="mensagem" cols="30" rows="5"
+                    placeholder="Mensagem *"></textarea>
+                <p class="msg-campo-obrigatorio">campo obrigatório</p>
+            </div>
+            <p class="msg-texto-obrigatorio-fixa">*campos obrigatórios</p>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </main>
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+
+</html>

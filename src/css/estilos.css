@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../imagens/background.jpg);
+    background-size: contain;
+}
+
+.main .informacoes {
+    max-width: 300px;
+    margin-right: 60px;
+}
+
+.main .informacoes h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.main .informacoes p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.formulario {
+    width: 340px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.formulario .controle-formulario {
+    margin-bottom: 15px;
+}
+
+.controle-formulario:nth-last-child(3) {
+    margin-bottom: 7px;
+}
+
+.formulario .controle-formulario .dados-usuario {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.formulario .controle-formulario textarea {
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario .controle-formulario .msg-campo-obrigatorio {
+    font-size: 8px;
+    line-height: 9px;
+    font-weight: 400;
+    display: none;
+}
+
+.formulario .msg-texto-obrigatorio-fixa {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 20px -5px;
+}
+
+.formulario .btn-enviar {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.formulario .controle-formulario.campo-vazio input {
+    border-color: #F52E2E;
+}
+
+.formulario .controle-formulario.campo-vazio textarea {
+    border-color: #F52E2E;
+}
+
+.formulario .controle-formulario.campo-vazio p {
+    display: block;
+    color: #F52E2E;
+}
+
+.formulario .controle-formulario.campo-preenchido input {
+    border-color: #00C22B;
+}
+
+.formulario .controle-formulario.campo-preenchido textarea {
+    border-color: #00C22B;
+}
